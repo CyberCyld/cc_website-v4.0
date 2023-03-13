@@ -53,63 +53,46 @@
   <header id="header" class="header fixed-top" data-scrollto-offset="0" style="background-color:black;">
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
-      <a href="/" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+      <a class="logo d-flex align-items-center scrollto me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="../public/logo2.png" alt="CyberCyld-Logo"> 
-        <h4 style="color:darkgoldenrod;"> <small>Social Media Security Plateform</small><span>.</span></h4>
+       
       </a>
 
       <nav id="navbar" class="navbar">
-  <ul>
-    <li class="dropdown" ><a href="/"><span style="color:white;">Home</span></a>
-    </li>
-    <li><a class="nav-link scrollto" href="/blog" style="color:white;">Blog</a></li>
-    
- <li class="dropdown"><a href="#pricing"><span style="color:white;">Our  Plan</span> <i class="bi bi-chevron-down 
-dropdown-indicator"></i></a>
-      <ul>
-        <li style="color:white;"><a href="/#pricing">Personal Protection Plan</a></li>
-        <li><a href="/#pricing" style="color:white;">Business Protection Plan</a></li>
-      </ul>
-    </li>
- <li class="dropdown"><a href="#"><span style="color:white;">Contact Us</span> <i class="bi bi-chevron-down 
-dropdown-indicator"></i></a>
-      <ul>
-        <li style="color:white;"><a href="/contacts">Contacts</a></li>
-        <li><a href="/careers" style="color:white;">Careers</a></li>
-      </ul>
-    </li>
-    </ul>
-  <i class="bi bi-list mobile-nav-toggle d-none"></i>
-</nav><!-- .navbar -->
-      
+        <ul>
+<!--
+          <li class="dropdown" ><a href="/"><span style="color:white;">Home</span></a>
+          </li>
+-->
 
-      
-      
+          
+       <li class="dropdown"><a href="#pricing"><span style="color:darkgoldenrod;"><b>Social Media Protection Plans</b></span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li style="color:darkgoldenrod;"><a href="/#pricing">Personal Protection Plan</a></li>
+              <li><a href="#pricing" style="color:darkgoldenrod;">Business Protection Plan</a></li>
+              <li><a href="#pricing" style="color:darkgoldenrod;">Advance Protection Plan</a></li>
+            </ul>
+          </li>
+      <li><a class="nav-link scrollto" href="/blog" style="color:darkgoldenrod;"><b>Cyber Security Blogs</b></a></li> 
+<!--
+       <li class="dropdown"><a href="#"><span style="color:white;">Contact Us</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li style="color:white;"><a href="/contacts">Contacts</a></li>
+              <li><a href="/careers" style="color:white;">Careers</a></li>
+            </ul>
+          </li>  -->
+          </ul>
+        <i class="bi bi-list mobile-nav-toggle d-none"></i>
+      </nav><!-- .navbar -->
 
+      <!-- <a class="btn-getstarted scrollto" href="/login" style="color:white;" >Login/Register</a> -->
       
-<!--  
-      
-      
-      
-      
-      
-      
--->   
-      
-      
-      
-      
-      
-      
-      
-      
-      
-
-      <a class="btn-getstarted scrollto" href="/login">Login</a>
-
+      <li><a class="nav-link scrollto" href="/login" style="color:darkgoldenrod;">Sign in/Sign up</a></li> 
     </div>
   </header>
+  <!-- End Header -->
+
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
@@ -117,10 +100,9 @@ dropdown-indicator"></i></a>
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h3>Jobs</h3>
+          <li><b>Jobs</b></li>
           <ol>
-            <li><a href="/">Home</a></li>
-            <li>Careers</li>
+            <li><a href="/"><b>Home</b></a></li>
           </ol>
         </div>
 
@@ -265,8 +247,8 @@ dropdown-indicator"></i></a>
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-<footer id="footer" class="footer">
+<!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
 
     <div class="footer-content">
       <div class="container">
@@ -276,21 +258,21 @@ dropdown-indicator"></i></a>
             <div class="footer-info">
               <h4>CyberCyld- by AppTwig Pvt. Ltd. </h4>
               <p>
-                Madhuban Vihar Coloney , Near SGPGI , Lucknow 226014<br><br>
-                <strong>Phone:</strong> +91 7393929207<br>
+                D-322, ITTINA ABHA, Banglore-560037<br><br>
                 <strong>Email:</strong> alert@cybercyld.com<br>
               </p>
             </div>
           </div>
-   
-   <div class="col-lg-2 col-md-6 footer-links">
+
+          <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bi bi-chevron-right"></i> <a href="/">Home</a></li>
-              <!--<li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>-->
-              <!--<li><i class="bi bi-chevron-right"></i> <a href="#pricing">Services</a></li> -->
+              <li><i class="bi bi-chevron-right"></i> <a href="#pricing">Plans</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="/terms-of-use">Terms of service</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="/policy">Privacy policy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/careers">Careers</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="/contacts">Contact us</a></li>
             </ul>
           </div>
 
@@ -299,7 +281,6 @@ dropdown-indicator"></i></a>
             <ul>
               <li><i class="bi bi-chevron-right"></i> Instagram Security</li>
               <li><i class="bi bi-chevron-right"></i> Facebook Security</li>
-              <li><i class="bi bi-chevron-right"></i> YouTube Security</li>
               <li><i class="bi bi-chevron-right"></i> Twitter Security</li>
               <li><i class="bi bi-chevron-right"></i> Linkdin Security</li>
               <li><i class="bi bi-chevron-right"></i> Snapchat Security</li>
